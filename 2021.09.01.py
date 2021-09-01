@@ -55,6 +55,20 @@ elif 13<=age<19:
 else:
     print(balance-650)
     
+#심사문제 16.6 p217
+x =int(input())
+
+for i in range(1,10):
+    print(x, '*' ,i ,'=' ,x*i,end='\n')
+
+#심사문제 17.6 p229
+x = int(input())
+
+while x>=0:
+    print(x)
+    x -= 1350
+    
+
 
 
 
